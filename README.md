@@ -137,7 +137,7 @@ Hands-on practice exercises to reinforce LangGraph concepts and agent design pat
 
 ---
 
-### https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png .gitignore
+https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png .gitignore
 
 Ignore rules for Python, Jupyter, virtual environments, and system files.
 
@@ -145,7 +145,7 @@ Ignore rules for Python, Jupyter, virtual environments, and system files.
 
 ## 🛠️ Tech Stack & Tools
 
-* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="26"/> Python 3.10+
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="26"/> Python
 
 * <img src="https://avatars.githubusercontent.com/u/126733545?s=200&v=4" height="26"/> LangGraph
 
