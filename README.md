@@ -175,6 +175,24 @@ jupyter notebook
 * Implement real-world RAG systems
 * Practice clean agent architecture
 
+## 🧠 README.md
+
+* Project purpose and learning objectives
+
+* Overview of LangGraph, LangChain, and Ollama usage
+
+* Agent architecture and workflow patterns
+
+* Explanation of repository structure and file roles
+
+* Description of each agent type and notebook example
+
+* Setup instructions and dependency management
+
+* Recommended learning path for agents and notebooks
+
+* Best practices for experimenting with agentic workflows
+
 ---
 
 ## 📄 License
