@@ -89,7 +89,7 @@ This repository is ideal for:
 
 ---
 
-## 📁 Project Structure
+## 🧩 Course Structure
 
 ### 1️⃣ bot_agent.py
 
@@ -159,19 +159,95 @@ Ignore rules for Python, Jupyter, virtual environments, and system files.
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run Locally
 
-git clone https://github.com/Mohit-1307/LangGraph-Agent-Lab.git
+* Follow these steps to set up and run the LangGraph Agent Lab repository on your local machine
 
-cd LangGraph-Agent-Lab
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/LangGraph-Agent_Lab.git
+
+cd LangGraph-Agent_Lab
+
+### 2️⃣ (Optional but Recommended) Create a Virtual Environment
+
+#### 🪟 Windows:
+
+python -m venv venv
+
+venv\Scripts\activate
+
+#### <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/MacOS_logo.svg" height="28"/> macOS / 🐧 Linux:
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+### 3️⃣ Install Dependencies
+
+* Upgrade pip and install all required libraries:
+
+pip install --upgrade pip
 
 pip install langchain langgraph langchain-ollama langchain-chroma chromadb
+
+### 4️⃣ Install & Set Up Ollama (Local LLMs)
+
+* Make sure Ollama is installed and running on your system.
+
+#### Pull the required models:
 
 ollama pull llama3.2
 
 ollama pull gemma:2b
 
 ollama pull mxbai-embed-large
+
+#### Verify Ollama is working:
+
+ollama list
+
+### 5️⃣ Run Python Agent Files
+
+#### You can directly run Python-based agents:
+
+python rag_agent.py
+
+### 6️⃣ Run Jupyter Notebooks
+
+#### Start Jupyter Notebook:
+
+jupyter notebook
+
+#### Open and run notebooks step-by-step:
+
+single_input.ipynb
+
+sequential_input.ipynb
+
+conditional_statements.ipynb
+
+looping_agent.ipynb
+
+multiple_agent.ipynb
+
+exercise_for_graph_*.ipynb
+
+These notebooks are designed as lessons, not just demos.
+
+📝 Notes
+
+✅ Python 3.8+ is required
+
+python --version
+
+* 📦 Using a virtual environment (venv) is highly recommended
+
+* 🧠 Ollama runs fully locally — no API keys required
+
+* 📄 PDF files used for RAG can be placed inside the project directory
+
+* 💻 Works on Windows, macOS, and Linux
 
 ---
 
