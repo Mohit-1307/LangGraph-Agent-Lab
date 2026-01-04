@@ -77,7 +77,7 @@ This repository is ideal for:
 
 🟣 Phase 3 – Multi-Agent Systems
 
-8. multiple_agent.ipynb – Agent coordination
+8. multiple_input.ipynb – Agent coordination
 
 🔴 Phase 4 – Real-World Applications
 
@@ -119,7 +119,7 @@ Tool-using ReAct-style reasoning agent with strict tool invocation rules (math t
 
 Shows iterative / looping agent execution, where the agent reasons until a condition is met.
 
-### 8️⃣ multiple_agent.ipynb
+### 8️⃣ multiple_input.ipynb
 
 Implements multiple agents interacting or coordinating within a single workflow.
 
