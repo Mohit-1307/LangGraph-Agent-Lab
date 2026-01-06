@@ -59,15 +59,15 @@ This repository is ideal for:
 
 1. bot_agent.py – Minimal stateless agent
 
-2. single_input.ipynb – One-shot execution
+2. single_input_agent.ipynb – One-shot execution
 
 🟡 Phase 1 – State & Flow
 
 3. memory_agent.py – Persistent conversation memory
 
-4. sequential_input.ipynb – Multi-turn state handling
+4. sequential_agent.ipynb – Multi-turn state handling
 
-5. conditional_statements.ipynb – Branching logic
+5. conditional_agent.ipynb – Branching logic
 
 🔵 Phase 2 – Tools & Reasoning
 
@@ -77,7 +77,7 @@ This repository is ideal for:
 
 🟣 Phase 3 – Multi-Input Systems
 
-8. multiple_input.ipynb – Agent coordination
+8. multiple_input_agent.ipynb – Agent coordination
 
 🔴 Phase 4 – Real-World Applications
 
@@ -85,7 +85,7 @@ This repository is ideal for:
 
 10. rag_agent.py – PDF-based RAG with ChromaDB
 
-11. exercise_for_graph_*.ipynb – Practice & mastery
+11. exercise_for_*.ipynb – Practice & mastery
 
 ---
 
@@ -95,7 +95,7 @@ This repository is ideal for:
 
 Minimal single-turn LangGraph agent demonstrating START → PROCESS → END flow with no memory or tools.
 
-### 2️⃣ single_input.ipynb
+### 2️⃣ single_input_agent.ipynb
 
 Notebook version of a one-shot agent execution, useful for visually understanding graph execution.
 
@@ -103,11 +103,11 @@ Notebook version of a one-shot agent execution, useful for visually understandin
 
 Chat agent with persistent conversation memory, storing and reusing past user and AI messages.
 
-### 4️⃣ sequential_input.ipynb
+### 4️⃣ sequential_agent.ipynb
 
 Handles multiple sequential user inputs using the same agent state across turns.
 
-### 5️⃣ conditional_statements.ipynb
+### 5️⃣ conditional_agent.ipynb
 
 Demonstrates conditional routing and branching logic inside LangGraph workflows.
 
@@ -119,7 +119,7 @@ Tool-using ReAct-style reasoning agent with strict tool invocation rules (math t
 
 Shows iterative / looping agent execution, where the agent reasons until a condition is met.
 
-### 8️⃣ multiple_input.ipynb
+### 8️⃣ multiple_input_agent.ipynb
 
 Implements multiple agents interacting or coordinating within a single workflow.
 
@@ -131,7 +131,7 @@ Tool-based document drafting assistant that can update and save documents autono
 
 End-to-end Retrieval-Augmented Generation (RAG) agent using PDF documents and ChromaDB.
 
-### 1️⃣1️⃣ exercise_for_graph_*.ipynb
+### 1️⃣1️⃣ exercise_for_*.ipynb
 
 Hands-on practice exercises to reinforce LangGraph concepts and agent design patterns.
 
