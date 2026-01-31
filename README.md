@@ -279,6 +279,7 @@ Feel free to open issues or submit pull requests.
 
 ---
 
-## 📌 Author
+## 👨🏻‍💻 Author
 
 ╰┈➤ Mohit Singh Rajput (ML Engineer)
+
